@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Museu das Memórias</title>
+        <meta charset="utf-8">
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+        <!-- Estilo Customizado -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+            <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div id="container"> <!--Inicio container-->
+
+            <header> <!--Inicio do Header -->
+                <div id="logo">
+                    <h1><a href="">Museu das Memórias</a></h1>
+                </div>
+
+                <nav> <!--Inicio do nav (barra de navegação)-->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Exposições</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Acervo</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Fotos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav> <!--Fim do nav (barra de navegação)-->
+
+            </header> <!-- Fim do Header -->
+
+            <div id="principal"> <!-- Inicio Principal -->
+
+                <div id="conteudo"> <!-- Inicio do Conteudo -->
+                    <section id="capa">
+                        <img src="Imagens/museu.png">
+                    </section>
+
+                    <section id="postagens">
+                        <article id="video">
+
+                            <h3>Descubra o museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/SaAkACN1v5U?si=smVIxorYqn1xZliC" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                             gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </article>
+
+                        <article id="mapa">
+
+                            <h3>Localize o museu no mapa: </h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5227542644852!2d-46.609679!3d-23.585577999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be650476023%3A0x2c33390e6e3805b1!2sMuseu%20do%20Ipiranga%20-%20USP!5e0!3m2!1spt-BR!2sbr!4v1696985004995!5m2!1spt-BR!2sbr" 
+                             width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </article>
+
+                        <article id="exposicoes">
+                            <h3>Exposições:</h3>
+                            <ul>
+                                <li>
+                                    <a href="">História da Arte </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Cultura e Tradição Local </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Arqueologia e Antiguidades </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Ciência e Tecnologia </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Museu Interativo para Crianças </a>
+                                </li>
+
+                                <li>
+                                    <a href="">História Natural </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Memórias e Testemunhos Pessoais </a>
+                                </li>
+
+                                <li>
+                                    <a href="">Artistas Locais em Destaque </a>
+                                </li>
+
+                                <li>
+                                    <a href=""><strong>Visualize todos (65)</strong></a>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article id="historia">
+                            <h3>200 anos de historia</h3>
+                            <p>Com dois séculos de existência, o "Museu das Memórias" é um tesouro de história e cultura. 
+                               Ao longo de 200 anos, tem preservado e celebrado as memórias, tradições e conquistas que moldaram
+                               nossa identidade. Este museu é uma janela única para o passado, permitindo que as gerações atuais 
+                               se conectem com a rica herança que o tempo deixou para trás.</p>
+                               <li>
+                                <a href=""><strong>Saiba mais</strong></a>
+                            </li>
+                        </article>
+                    </section>
+                </div> <!-- Fim do Conteudo -->
+
+                <aside> <!-- Inicio da Barra lateral -->
+                    <section id="depoimento">
+                        <img src="Imagens/depoimento.png">
+
+                    </section>
+
+                    <section id="visita">
+                        <h4>Realize uma visita</h4> <!-- Inicio da Seção Visita -->
+                        <form>
+                            <fieldset>
+                                <legend>Por favor, escolha uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd Pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Verifique a disponibilidade">
+                        </form>
+                    </section> <!-- Fim da Secao Visita -->
+
+                    <section id="galeria">
+                        <h4>Explorar Galeria de Fotos</h4>
+
+                        <a href="">
+                            <img src="Imagens/imagem1.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="Imagens/imagem2.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="Imagens/imagem3.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="Imagens/imagem4.jpg" height="93" width="93">
+                        </a>
+
+                    </section>
+                </aside> <!-- Fim da Barra lateral -->
+                <footer>
+                    <p>
+                        <a href="#">Home</a>
+                        <a href="#">Exposições</a>
+                        <a href="#">Pesquisa</a>
+                        <a href="#">Acervo</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Fotos</a>
+                        <a href="#">Contato</a>
+                    </p>
+
+                    <p>
+                        2019 <a href="">Museu das Memórias</a> - Todos os direitos reservados
+                    </p>
+                </footer>
+                
+            </div> <!-- Fim do Principal -->
+
+
+        </div><!--Fim do container-->
+        
+    </body>
+</html>
